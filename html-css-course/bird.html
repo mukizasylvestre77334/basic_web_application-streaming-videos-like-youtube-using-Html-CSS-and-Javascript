@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>!!changing shapes!!</title>
+  <style>
+    .shape{
+      background-color: azure;
+      color: red;
+      padding: 10px 10px;
+      width: 10px;
+      height: 10px;
+    }
+    .shape.circle{
+      background-color: aquamarine;
+      border: solid;
+      border: 2px;
+      border-color: pink;
+      border-radius: 50%;
+
+    }
+    .shape.ellipse{
+      background-color: blanchedalmond;
+      border: solid;
+      border: 2px;
+      border-color:blueviolet;
+      width: 150px;
+      height: 80px;
+      border-radius: 50% / 30%;
+
+    }
+    .shape.rounded-square{
+      background-color: bisque;
+      border: solid;
+      border: 2px;
+      border-color:violet;
+      border-radius: 20%;
+
+    }
+
+    .control button{
+      background-color: blue;
+      color:white;
+      padding: 10px 10px;
+      margin: 10px 10px;
+    }
+    
+  </style>
+</head>
+<body>
+  
+  <div class="control">
+   <button class="circle" onclick ="choiceShape(this)">circle</button>
+   <button class="ellipse" onclick="choiceShape(this)">ellipse</button>
+   <button class="rounded-square" onclick="choiceShape(this)">rounded-square</button>
+   <button onclick="choiceShape(this)">reset</button>
+  </div>
+
+  <script>
+    function choiceShape(button) {
+      const params=button.classList;
+      if (params!=="reset") {
+         button.classList.add("shape");
+      }
+      
+    }
+  </script>
+</body>
+</html>

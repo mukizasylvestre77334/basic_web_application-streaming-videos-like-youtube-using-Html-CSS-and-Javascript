@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      youtube
+    </title>
+    <style>
+      .thumb{
+        width: 300px;
+        display: block;
+    
+      }
+      p{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .search-bar{
+        font-size: 20px;
+        display: block;
+
+      }
+      .vid{
+        width: 100%;
+        font-weight: bold;
+        vertical-align: top;
+        margin: 0px;
+      }
+      .mino{
+        margin-top: 15px;
+        margin-bottom: 0px;
+        font-size: 12px;
+      }
+      .mike{
+        margin-top: 5px;
+        font-size: 12px;
+      }
+      .nopius{
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+      }
+      .div-chan,.div-text{
+       
+      }
+      .div-text{
+       margin-top: 0px;
+        margin-left: 12px;
+        vertical-align: top;
+      }
+      .channel-image{
+        border-radius: 50px;
+        vertical-align: top;
+        width: 50px;
+      }
+      .manu{
+        margin-bottom: 10px;
+      }
+      .vido{
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 15pxpx;
+        vertical-align: top;
+        margin: 0px;
+      }
+      body{
+        height: 800px;
+        padding: 50px 10px;
+      }
+      .stuta{
+        margin-top: 5px;
+        height: 100px;
+        width:100%;
+        margin-bottom: 2px; 
+      }
+      .stuta:hover{
+        background-color: aquamarine;
+      }
+      .chris{
+         width: 50px;
+         border: none;
+         position: relative;
+         cursor: pointer;
+      }
+      .chris .pendo{
+        background-color: black; 
+        color: white; border: 2px;
+        border-radius: 19px;
+        position: absolute;
+        opacity: 0;
+      }
+      .chris:hover .pendo{
+        opacity: 1;
+      }
+      
+      
+      
+      
+    </style>
+  </head>
+  <body>
+    <div style="position: fixed;left:
+     0;bottom: 0;height: 700px; width: 60px;  "> 
+     <div class="stuta"></div>
+
+     <div class="stuta"><img src="thumb-icons/home.svg" style="height: 38px; padding-top: 20px; padding-left: 8px;">
+    <div style="font-size: 10px; padding-left: 10px;"> Home</div></div>
+
+    <div class="stuta"><img src="thumb-icons/explore.svg" style="height: 38px; padding-top: 20px; padding-left: 8px;">
+      <div style="font-size: 10px; padding-left: 10px;"> Explore</div></div>
+
+      <div class="stuta"><img src="thumb-icons/subscriptions.svg" style="height: 38px; padding-top: 20px; padding-left: 8px;">
+        <div style="font-size: 10px; padding-left: 10px; width: 14px;"> Subscriptions</div></div>
+
+      <div class="stuta"><img src="thumb-icons/originals.svg" style="height: 38px; padding-top: 20px; padding-left: 8px;">
+        <div style="font-size: 10px; padding-left: 10px; width: 14px;"> Originals</div></div>
+      <div class="stuta"><img src="thumb-icons/youtube-music.svg" style="height: 38px; padding-top: 20px; padding-left: 8px;">
+        <div style="font-size: 10px; padding-left: 10px; width: 14px;"> Youtube-music</div></div>
+      <div class="stuta"><img src="thumb-icons/library.svg" style="height: 38px; padding-top: 20px; padding-left: 8px;padding-bottom: 15px;">
+        <div style="font-size: 10px; padding-left: 10px; width: 14px;"> Library</div></div>
+    
+    </div>
+
+
+
+    <div style="background-color: white;
+    display: flex;
+    height: 50px;
+    margin-bottom: 20px;
+    flex-direction: row; position: fixed;left: 0;top: 0; right: 0; border-bottom: 2px;border-bottom: solid; border-bottom-color: grey;">
+    
+    <div style="width: 210px; margin-right: 70px; display: grid;
+    grid-template-columns: 30px 1fr;
+    column-gap: 30px;">
+      <div><img src="thumb-icons/hamburger-menu.svg"></div>
+      <div><img src="thumb-icons/youtube-logo.svg"></div>
+    </div>
+
+
+    <div style="margin-right: 80px; width: 250px;
+    max-width: 450px;flex: 1; display: flex; height: 45px;"><input type="text" placeholder="Search" class="search-bar" >
+     <button class="chris">   <img style="height: 40px;" src="thumb-icons/search.svg">
+    <div class="pendo">search</div></button>
+
+
+    <button style="width: 50px;margin-left: 10px; border-radius: 60px; border: none;"> <img src="thumb-icons/voice-search-icon.svg" style="height: 25px;"></button>
+    
+  
+  </div>
+
+    <div style=" width: 200px;height: 45px; display: flex;
+    flex-direction: row; align-items: center;
+    justify-content: space-between; margin-left: 170px;">
+      <div style="height: 30px;">  <img src="thumb-icons/upload.svg" style="height: 30px;">  </div>
+      <div>   <img src="thumb-icons/youtube-apps.svg" style="height: 30px;">  </div>
+      <div style="position: relative;">  <div style="background-color: brown; color: white;
+      position: absolute; top: 7px; right: 10px;font-size: 13px; font-family: Arial, Helvetica,
+       sans-serif;border-radius: 50px; padding: 2px 2px;">3</div>   <img src="thumb-icons/notifications.svg" style="height: 30px;">    </div>
+      <div>    <img src="thumb-nails/my-channel.jpeg" style="height: 40px;">   </div>
+    </div>
+  </div>
+    <div style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 6px; padding-left: 50px;">
+    <div class="nopius">
+      <div class="manu" style="position: relative;">
+        <div style="background-color: black; color: white; position: absolute;
+         bottom: 10px; right: 20px; padding: 5px 5px; font-family: Arial, Helvetica, sans-serif; border-radius: 20px;">5:00</div>
+    <img src="thumb-nails/thumbnail-1.webp" class="thumb" > 
+  </div>
+
+  <div style="display: grid; grid-template-columns: 50px 1fr;">
+    <div class="div-chan">
+      <img src="thumb-nails/channel-1.jpeg" class="channel-image" >
+    </div>
+  <div class="div-text">
+    <p class="vid">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+    <p class="mino">Marques Brownlee</p>
+    <p class="mike">3.4M views &#183 6 months ago</p>
+  </div>
+  </div>
+  </div>
+  
+  
+
+  
+    <div class="nopius">
+      <div class="manu" style="position: relative;">
+        <div style="background-color: black; color: white; position: absolute;
+         bottom: 10px; right: 20px; padding: 5px 5px; font-family: Arial, Helvetica, sans-serif; border-radius: 20px;">4:30</div>
+    <img src="thumb-nails/thumbnail-2.webp" class="thumb"> 
+    
+  </div>
+  <div style="display: grid; grid-template-columns: 50px 1fr;">
+    <div class="div-chan">
+      <img src="thumb-nails/channel-2.jpeg" class="channel-image">
+    </div>
+  <div class="div-text">
+    <p class="vido">Try Not To Laugh Challenge #9</p>
+    <p class="mino">Markiplier</p>
+    <p class="mike">19M views &#183 4 years ago</p>
+  </div>
+  </div>
+  </div>
+  <div class="nopius">
+    <div class="manu">
+  <img src="thumb-nails/thumbnail-3.webp" class="thumb"> 
+</div>
+<div style="display: grid; grid-template-columns: 50px 1fr;">
+  <div class="div-chan">
+    <img src="thumb-nails/channel-3.jpeg" class="channel-image">
+  </div>
+<div class="div-text">
+  <p class="vido">
+    Crazy Tik Toks Taken Moments Before DISASTER</p>
+  <p class="mino">SSSniperWolf</p>
+  <p class="mike">12M views &#183 1 years ago</p>
+</div>
+</div>
+</div>
+<div class="nopius">
+  <div class="manu">
+<img src="thumb-nails/thumbnail-4.webp" class="thumb"> 
+</div>
+<div style="display: grid; grid-template-columns: 50px 1fr;">
+<div class="div-chan">
+  <img src="thumb-nails/channel-4.jpeg" class="channel-image">
+</div>
+<div class="div-text">
+<p class="vido">
+  
+The Simplest Math Problem No One Can Solve - Collatz &#1834 &#1834 &#1834</p>
+<p class="mino">Veritasium</p>
+<p class="mike">18M views &#183 4 months ago</p>
+</div>
+</div>
+</div>
+<div class="nopius">
+  <div class="manu">
+<img src="thumb-nails/thumbnail-5.webp" class="thumb"> 
+</div>
+<div style="display: grid; grid-template-columns: 50px 1fr;">
+<div class="div-chan">
+  <img src="thumb-nails/channel-5.jpeg" class="channel-image">
+</div>
+<div class="div-text">
+<p class="vido">
+  
+
+  Kadane's Algorithm to Maximum Sum Subarray &#1834 &#1834 &#1834 &#1834</p>
+<p class="mino">CS Dojo</p>
+<p class="mike">519K views &#1834 5 years  ago</p>
+</div>
+</div>
+</div>
+<div class="nopius">
+  <div class="manu">
+<img src="thumb-nails/thumbnail-6.webp" class="thumb"> 
+</div>
+<div style="display: grid; grid-template-columns: 50px 1fr;">
+<div class="div-chan">
+  <img src="thumb-nails/channel-6.jpeg" class="channel-image">
+</div>
+<div class="div-text">
+<p class="vido">
+  
+  Anything You Can Fit In The Circle I’ll Pay For</p>
+<p class="mino">MrBeast</p>
+<p class="mike">141M views &#1834 1 year ago</p>
+</div>
+</div>
+</div>
+</div>
+
+  </body>
+</html>
